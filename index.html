@@ -11,12 +11,15 @@
 
 <body>
     <form action="" onsubmit="return false">
-        <input type="text" name="inputText" id="inputText" placeholder="Put yout message hier">
-        <button onclick="encrypt()">Encrypt</button>
+        <div class="leftSide">
+            <input type="text" name="inputText" id="inputText" placeholder="Put yout message hier">
+            <button onclick="encrypt()">Encrypt</button>
 
-        <div id="morseCode"></div>
-        <div>
-            <h1>EXPLANATION:</h1>
+            <div id="morseCode"></div>
+        </div>
+
+        <div class="rightSide">
+            <h1 id="headline">EXPLANATION:</h1>
             <div id="letterAndCode"></div>
         </div>
     </form>

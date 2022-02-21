@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+form{
+    width: 70%;
+    display: flex;
+
+    & .leftSide{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        margin: 20px auto;
+        
+        input{
+            padding: 10px;
+            border-radius: 8px;
+        }
+
+        button{
+            width: 30%;
+            margin: 20px auto;
+            padding: 10px;
+            border-radius: 8px;
+        }
+        
+        #morseCode{
+            margin: 0 auto;
+            font-size: 1.5rem;
+        }
+        
+    }
+
+    & .rightSide{
+        margin: 20px;
+        display: block;
+
+        h1{
+            display: none;
+        }
+    }
+}

@@ -44,6 +44,8 @@ function encrypt() {
 
     let code = ""
 
+    document.getElementById("headline").style.display = "flex"
+
     textArr.forEach(e => {
 
         if (e != " ") {
